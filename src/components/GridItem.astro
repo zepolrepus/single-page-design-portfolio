@@ -1,0 +1,12 @@
+---
+import type { IGrid } from '../interfaces/IGrid';
+const gridItem: IGrid = Astro.props.gridItem;
+---
+<div class={`col-span-${gridItem.width} row-span-${gridItem.height} bg-${gridItem.color} rounded-lg flex flex-col gap-5 p-5`}>
+        <div class="w-full flex justify-end">
+            <img src={`assets/pattern-${gridItem.id}.svg`}
+             alt={gridItem.title}
+            />
+        </div>
+         <h3>{gridItem.title}</h3>
+</div>

@@ -1,0 +1,46 @@
+{
+    "items" :[
+        {
+        "id" : "graphic-design",
+        "title" : "Graphic Design",
+        "color" : "galactic_blue-500",
+        "width" : 2,
+        "height" : 2 
+        },
+        {
+        "id" : "ui-ux",
+        "title" : "UI/UX",
+        "color" : "summer_yellow-500",
+        "width" : 1,
+        "height" : 1 
+        },
+        {
+        "id" : "apps",
+        "title" : "Apps",
+        "color" : "pink-500",
+        "width" : 1,
+        "height" : 1 
+        },
+        {
+        "id" : "illustrations",
+        "title" : "Illustrations",
+        "color" : "light_red-500",
+        "width" : 2,
+        "height" : 1 
+        },
+        {
+        "id" : "photography",
+        "title" : "Photography",
+        "color" : "cyan-500",
+        "width" : 2,
+        "height" : 1 
+        },
+        {
+        "id" : "motion-graphics",
+        "title" : "Motion Graphics",
+        "color" : "dark_purple-500",
+        "width" : 2,
+        "height" : 1 
+        }
+    ]
+}
